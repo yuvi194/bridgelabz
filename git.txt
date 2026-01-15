@@ -1,0 +1,19 @@
+git init --- used to initialize git in system create an empty repository
+git clone "  "  ---- used to clone the repository direct from the server
+git add . ---- add alll the file in the folder 
+git add filename/folder ---- add the only file whose filename is mention or folder
+git add * ----add all the file including the hidden file
+git *js --- add all the file which have extension of js
+git checkout -b "  " --- make the new branch and change the branch to new one 
+git checkout "   " ----- change to the written branch
+git branch ----- gives the name of all the existing baranch name and show the current working branch 
+git status ---- tells the status of the repository 
+git commit -m "  " -----gives the message to the added file
+git reset filename --- unstage the file 
+git rm filename ----- it remove the given file
+git help ---- open the git command and history
+git restore ---- restore working tree file
+git log ----- show commit log 
+git push -u origin branchname ----- push the files on the server first time
+git push origin  ----- push the files on the working branch 
+git pull origin ----- pull (copy)  the files from the server working (on the branch) on the system 
